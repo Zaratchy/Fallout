@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Roboto', sans-serif;
   text-align: justify;
@@ -8,18 +9,16 @@ body {
 header {
   background-image: url(images/Fallout-img.jpg);
   background-size: cover;
+  background-position: center;
   color: #fff;
   padding: 100px;
   margin-bottom: 60px;
 }
-
-
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 100px;
 }
-
 .dessous-titre{
   font-size: 30px;
   font-weight: 300px;
@@ -27,18 +26,11 @@ h1 {
   font-size: 50px;
   margin-left: 120px;
 }
-
 .dessous-titre p {
   line-height: 20px;
 }
 
 /*section bethesda*/
-
-.rotate {
-  transform: rotate(270deg);
-  position: absolute;
-}
-
 h4 {
   background-color: #D6AF23;
   font-size: 50px;
@@ -49,37 +41,15 @@ h4 {
   top: 40px;
   padding: 10px 25px 10px 25px;
 }
-
-/*Section text*/
-
-.text p {
-  font-size: 25px;
-}
-
-.bar {
-  border: 1px solid #f5a327;
-  height: 115%;
+.rotate {
+  transform: rotate(270deg);
   position: absolute;
-  width: 8px;
-  left: 22%;
-  background-color: #e9bf28;
 }
-
-.text {
-  margin-left: 27%;
-  margin-right: 27%;
+/*Section text*/
+b {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
 }
-
-.first-text {
-  font-weight: 400;
-}
-
-.dessou-titre p {
-  line-height: 40px;
-  margin: 0;
-  padding: 0;
-}
-
 ul {
   padding: 0;
   margin: 10px;
@@ -102,12 +72,31 @@ h1 span {
   font-weight: 100;
   color : #D6AF23;
 }
-
-b {
-  font-family: 'Roboto', sans-serif;
-  font-style: italic;
+.text p {
+  font-size: 25px;
+}
+.bar {
+  border: 1px solid #f5a327;
+  height: 900px;
+  position: absolute;
+  width: 8px;
+  left: 22%;
+  background-color: #e9bf28;
+}
+.text {
+  margin-left: 27%;
+  margin-right: 27%;
 }
 
+.first-text {
+  font-weight: 400;
+}
+
+.dessou-titre p {
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
 .fine {
   font-weight: 100;
   font-size: 25px;
@@ -118,7 +107,13 @@ b {
 }
 
 /*Footer*/
-
+h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  padding: 0;
+  line-height: 10px;
+}
 footer {
   background: rgb(0,0,0);
 background: linear-gradient(0deg, rgba(0,0,0,1) 63%, rgba(2,38,2,1) 100%);
@@ -151,15 +146,6 @@ footer .fine-footer {
   margin-left: 50px;
   margin-bottom: 50px;
 }
-
-h2 {
-  font-size: 30px;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  padding: 0;
-  line-height: 10px;
-}
-
 .logo {
   margin-top: 40px;
   text-align: center;
@@ -178,3 +164,16 @@ h3 {
 }
 
 
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  h3 {
+    font-size: 30px;
+  }
+  .text {
+    width: 500px;
+  }
+  .text p {
+    font-size: 20px;
+  }
+}
