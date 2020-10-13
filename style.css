@@ -8,11 +8,20 @@ body {
 header {
   background-image: url(images/Fallout-img.jpg);
   background-size: cover;
+  background-position: center;
   color: #fff;
   padding: 100px;
   margin-bottom: 60px;
+  display: flex;
 }
 
+.title-text p {
+  display: flex;
+}
+
+.bethesda-and-text {
+  display: flex;
+}
 
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -29,7 +38,8 @@ h1 {
 }
 
 .dessous-titre p {
-  line-height: 20px;
+  line-height: 20%;
+  display: flex;
 }
 
 /*section bethesda*/
@@ -37,6 +47,7 @@ h1 {
 .rotate {
   transform: rotate(270deg);
   position: absolute;
+
 }
 
 h4 {
@@ -51,23 +62,29 @@ h4 {
 }
 
 /*Section text*/
+.bar-and-text {
+  display: flex;
+}
+
 
 .text p {
   font-size: 25px;
 }
 
-.bar {
+.bar-and-text .bar {
   border: 1px solid #f5a327;
-  height: 115%;
-  position: absolute;
-  width: 8px;
-  left: 22%;
+  height: 700px;
+  width: 15px;
   background-color: #e9bf28;
+  margin-left: 50px;
 }
 
 .text {
-  margin-left: 27%;
-  margin-right: 27%;
+  margin-left: 30px;
+  margin-right: 100px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
 }
 
 .first-text {
@@ -121,12 +138,13 @@ b {
 
 footer {
   background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 63%, rgba(2,38,2,1) 100%);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 63%, rgba(2,38,2,1) 100%);
   text-align: center;
   line-height: 15px;
   margin: 120px 0 0 0;
   padding: 0; 
 }
+
 
 footer .fine-footer {
   font-size: 15px;
@@ -149,7 +167,7 @@ footer .fine-footer {
   width: 250px;
   float: left;
   margin-left: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -174,7 +192,7 @@ h2 {
 h3 {
   color: #fff;
   font-family: 'Satisfy', cursive;
-  font-size: 50px;
+  font-size: 150%;
 }
 
 
