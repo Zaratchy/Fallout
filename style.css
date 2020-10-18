@@ -144,7 +144,58 @@ h3 {
   text-align: center;
   line-height: 15px;
 }
-@media screen and (min-width: 400px) and (max-width: 992px) {
+@media screen and (max-width: 768px) {
+  ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  .text {
+    width: 50%;
+  }
+  li {
+    line-height: 20px;
+  }
+  .text p,
+  li {
+    font-size: 15px;
+  }
+  .logo-2 {
+   width: 100px;
+   margin-left: 10px;
+  }
+  .logo-1 {
+    width: 100px;
+    margin-right: 10px;
+  }
+  .text-in-logo {
+    right: 33px;
+  }
+  .text-in-logo h2,
+  p {
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .dessous-titre p {
+    font-size: 15px;
+  }
+  .bar {
+    height: 30%;
+  }
+  .dessous-titre {
+    font-size: 20px;
+    margin-left: 15px;
+    width: 200px;
+  }
+  h4 {
+    font-size: 20px;
+    top: 0px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
   h3 {
     font-size: 30px;
   }
@@ -156,39 +207,6 @@ h3 {
   }
   .bar {
     height: 900px;
-  }
-}
-@media screen and (min-width: 200px) and (max-width: 768px) {
-  .text {
-    width: 60%;
-  }
-  .text p,
-  li {
-    font-size: 15px;
-  }
-  .logo-2 {
-   width: 30%;
-  }
-  .logo-1 {
-    width: 190px;
-  }
-  .text-in-logo {
-    right: 90px;
-  }
-  .dessoup-titre p {
-    font-size: 12px;
-  }
-  .bar {
-    height: 500px;
-  }
-  .dessous-titre {
-    font-size: 25px;
-  }
-  h4 {
-    font-size: 30px;
-  }
-  h1 {
-    font-size: 70px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 2500px) {
