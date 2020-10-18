@@ -1,13 +1,12 @@
-
+/*Global*/
 body {
   font-family: 'Roboto', sans-serif;
   text-align: justify;
+  background: linear-gradient(90deg, rgba(225,229,231,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 80%, rgba(225,229,231,1) 100%);
 }
-
 /*Header*/
-
 header {
-  background-image: url(images/Fallout-img.jpg);
+  background-image: url(images/fallout-img.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -19,17 +18,15 @@ h1 {
   font-weight: bold;
   font-size: 100px;
 }
-.dessous-titre{
-  font-size: 30px;
+.dessous-titre {
   font-weight: 300px;
   margin-bottom: 50px;
   font-size: 50px;
   margin-left: 120px;
 }
 .dessous-titre p {
-  line-height: 20px;
+  margin: 0;
 }
-
 /*section bethesda*/
 h4 {
   background-color: #D6AF23;
@@ -54,20 +51,17 @@ ul {
   padding: 0;
   margin: 10px;
 }
-
 li {
   padding-left: 30px;
   line-height: 35px;
   font-size: 25px;
 }
-
 span {
   color : #f0ad2f;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-style: italic;
 }
-
 h1 span {
   font-weight: 100;
   color : #D6AF23;
@@ -87,11 +81,9 @@ h1 span {
   margin-left: 27%;
   margin-right: 27%;
 }
-
 .first-text {
   font-weight: 400;
 }
-
 .dessou-titre p {
   line-height: 40px;
   margin: 0;
@@ -105,8 +97,15 @@ h1 span {
   font-weight: 300;
   color: black;
 }
-
 /*Footer*/
+footer {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 63%, rgba(2,38,2,1) 100%);
+  text-align: center;
+  margin: 120px 0 0 0;
+  padding: 0;
+  height: 200px;
+}
 h2 {
   font-size: 30px;
   margin-top: 50px;
@@ -114,59 +113,38 @@ h2 {
   padding: 0;
   line-height: 10px;
 }
-footer {
-  background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 63%, rgba(2,38,2,1) 100%);
-  text-align: center;
-  line-height: 15px;
-  margin: 120px 0 0 0;
-  padding: 0; 
+h3 {
+  color: #fff;
+  font-family: 'Satisfy', cursive;
+  font-size: 150%;
+  padding-top: 30px;
 }
 
-footer .fine-footer {
+.fine-Footer{
   font-size: 15px;
 }
-
 .text-in-logo {
   position: absolute;
   right: 110px;
   margin-top: 30px;
-  
 }
-
 .logo-1 {
   float: right;
   margin-right: 50px;
   width: 250px;
 }
-
 .logo-2 {
   width: 250px;
   float: left;
   margin-left: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 .logo {
   margin-top: 40px;
   text-align: center;
   line-height: 15px;
 }
-
-.good-joob {
-  padding: 20px 100px 100px 100px;
-  margin: 0;
-}
-
-h3 {
-  color: #fff;
-  font-family: 'Satisfy', cursive;
-  font-size: 50px;
-}
-
-
-
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 400px) and (max-width: 992px) {
   h3 {
     font-size: 30px;
   }
@@ -175,5 +153,46 @@ h3 {
   }
   .text p {
     font-size: 20px;
+  }
+  .bar {
+    height: 900px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 768px) {
+  .text {
+    width: 60%;
+  }
+  .text p,
+  li {
+    font-size: 15px;
+  }
+  .logo-2 {
+   width: 30%;
+  }
+  .logo-1 {
+    width: 190px;
+  }
+  .text-in-logo {
+    right: 90px;
+  }
+  .dessoup-titre p {
+    font-size: 12px;
+  }
+  .bar {
+    height: 500px;
+  }
+  .dessous-titre {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 2500px) {
+  .bar {
+    height: 600px;
   }
 }
